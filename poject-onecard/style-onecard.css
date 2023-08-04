@@ -1,0 +1,237 @@
+.largescreen{
+    display: flex;
+    flex-wrap: wrap;
+    height: 45px;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #1a1717;
+    color: white;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    margin-top: 15px;
+}
+.navbar > a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar > a:hover{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(92, 187, 48);
+    font-size: x-large;
+}
+.button{
+    margin-right:30px ;
+    margin-top: 10px;
+    border-style: none;
+    outline: none;
+}
+.btn{
+    padding: 5px 25px;
+    color: white;
+    background-color: #2a862b;
+    border-radius: 8px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.content1 > h1{
+    color: rgb(0, 26, 255);
+    font-size: 60px;
+    margin-top: 5px;
+}
+.content1 > h2{
+        font-size: 30px;
+}
+.content1 > h3{
+    color: #4e28ae;
+    font-size: 35px;
+}
+#btn1{
+    padding:10px 70px;
+    font-size: large;
+    background-color: #35b8bd;
+    color: white;
+    border-radius: 8px;
+}
+.para1{
+    font-size: x-larg;
+}
+/* Box1 */
+.footer1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom,#141715,#262691,rgb(5, 5, 65));
+}
+.footer1 > h1{
+    font-size: 50px;
+    color: #10a8a8;
+}
+.footer1 > h3{
+    font-size: 30px;
+    color: #add9d9;
+}
+
+/* container2 */
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content2{
+    margin-top: 200px;
+}
+.content2 > h1{
+    font-size: 50px;
+}
+.content2 > p{
+    font-size: large;
+}
+
+/* conatainer3 */
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content3{
+    margin-top: 200px;
+}
+.content3 > h1{
+    font-size: 50px;
+}
+.content3 > p{
+    font-size: large;
+}
+
+/* container4 */
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content4{
+    margin-top: 200px;
+}
+.content4 > h1{
+    font-size: 50px;
+}
+.content4 > p{
+    font-size: large;
+}
+
+/* bottom content */
+.bottomcontainer{
+    margin-top: 40px;
+    text-align: center;
+}
+.bottomcontainer > h1{
+    font-size: 50px;
+}
+/* bottom content 2*/
+.bottomcontainer1{
+    margin-top: 40px;
+    text-align: center;
+}
+.bottomcontainer1 > h1{
+    font-size: 50px;
+}
+.bottomcontainer1 > p{
+    font-size: 20px;
+}
+.btn2 > button{
+    padding: 30px 55px;
+    margin-left: 15px;
+    border-radius: 12px;
+    background-color: #263301;
+    color: aliceblue;
+    font-size: larger;
+
+}
+.btn2 > button:hover{
+    padding: 30px 55px;
+    margin-left: 15px;
+    border-radius: 12px;
+    background-color: #263301;
+    color: rgb(226, 152, 60);
+    font-size:25px;
+
+}
+
+/* footer */
+.footer2{
+    width: 100%;
+    height: 1000px;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-image: radial-gradient(circle, #7777e4 , #3a3adf,#010116    );
+}
+
+.footercontent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.link > a{
+    text-decoration: none;
+    font-size: larger;
+    color: #84f2f2;
+}
+.onecard > h1{
+    color:#fbf8f8;
+}
+.onecard > p{
+    color:#91fbe9;
+}
+.link> h1{
+    color:#faf5f5;
+}
+.footercontent1{
+    text-align: center;
+    margin-top: 30px;
+}
+.footercontent1 > h2{
+    display: inline;
+    border: 1px solid black;
+    padding:15px 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #7b7575;
+    color: aliceblue;
+}
+.footercontent1 > h1{
+    color: #8bf7d3;
+    font-size: 40px;
+}
+.footercontent1 > h3{
+    color: #090c0b;
+    font-size: 20px;
+}
+.footercontent1 > p{
+    color:white;
+}
+.last{
+    text-align: center;
+}
